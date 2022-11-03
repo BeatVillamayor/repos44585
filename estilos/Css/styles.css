@@ -36,6 +36,18 @@
     text-decoration: none;
     text-align: center;
 }
+/* inicio box */
+.box {
+    display: grid;
+    grid-template-columns: repeat( 7, 1rf);
+    padding: 2 rem;
+   
+
+}
+.box__imagen{
+    width: 100%;
+}
+/* fin box */
 
 /* hero */
 .hero{
@@ -97,47 +109,18 @@ color:blue;
 }
 
 /*propuesta informativa*/
-
-/*PIE DE PAGINA*/
-.tracking-in-expand {
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+/*inicio contacto*/
+.header__ifram__img{
+  
+    display: grid;
+    grid-template-columns: repeat( 4, 1rf);
+    padding: 2 rem;
+   
 }
 
-
-/*animacions*/
- * ----------------------------------------
- * animation tracking-in-expand
- * ----------------------------------------
- */
- @-webkit-keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-expand {
-    0% {
-      letter-spacing: -0.5em;
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
+/*fin contacto*/
 
 
-/*FIN DE PIE DE PAGINA*/
 .color-negro{
     color:aqua;
     font-size:40px ;    
@@ -151,28 +134,36 @@ color:blue;
 article {
     color: blue;
 }
+/* media queries */
 
-/* Media queries */
-@media screen and (min-width 1024px){
-.header{
+@media screen and ( max-width 320px ){
+    .header{
         flex-direction: column;
     }
-.nav__list{
-    display: flex;
-    flex-direction: column;
-}
-.hero{
-    display: flex;
-}
-.hero__heading{
-    display: flex;
-    flex-direction: column;
-}
+    .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+    }
 
-.infocard{
+
+.box__imagen{
+    
+    flex-direction: column;
+    padding: 1rem;
+}
+.header__nav__pro__imagau{
+    display: flex;
     flex-direction: column;
 }
+.header__ifram{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
 }
-@media screen and (min-width 768px)
-@media screen and (min-width 320px)
 }
+    
