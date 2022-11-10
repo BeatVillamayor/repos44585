@@ -62,9 +62,7 @@
     }
   }
   
-.nav{
-    display: flex;
-}
+
 .nav__list{
     display: flex;
    flex-direction: column;
@@ -137,7 +135,7 @@
     margin:20px ;
 }
 .hero__img{
-    /* padding: 1rem 3rem; */
+    
     background-position: center bottom;
 }
 .hero__blue{
@@ -147,6 +145,7 @@
     margin: 1re;
 }
 /*hero fin*/
+/* utilitario*/
 
 h3 { 
     color:black;
@@ -177,17 +176,33 @@ color:blue;
     display: flex;
     flex-direction: column;
 }
+
+.color-negro{
+        color:aqua;
+        font-size:40px ;    
+    }
+    .verde{
+        color:green
+    }
+    .px{
+        font-size: 20px;
+    }
+    .article {
+        color: blue;
+    }
+ /*fin utilitario*/    
+
 /*propuesta informativa*/
 .caja{
    
     display: grid;
-    padding: 2 rem;
+    padding: 1rem;
     grid-template-columns: repeat(2 , 1fr);
-    height: 30vh;
-    overflow:scroll;
+    height: 10vh;
+   
 }
 .caja__img{
-        width: 100%;
+        width: 80%;
 }
 .roll-in-left {
 	-webkit-animation: roll-in-left 0.6s ease-out both;
@@ -402,19 +417,7 @@ color:blue;
 /*fin de proyecto*/
 
 
-.color-negro{
-    color:aqua;
-    font-size:40px ;    
-}
-.verde{
-    color:green
-}
-.px{
-    font-size: 20px;
-}
-article {
-    color: blue;
-}
+
 /* media queries */
 
 @media screen and (max-width:1024px) {
@@ -433,6 +436,7 @@ article {
     .header {
         flex-direction: column;
         background-color: bisque;
+        text-align: center;
  }
  .nav__list{
     display: flex;
@@ -450,10 +454,8 @@ article {
 flex-direction: column;
 padding: 1rem;
 }
-.header__nav__pro__imagau{
-display: flex;
-flex-direction: column;
-}
+
+
 .header__ifram{
 display: flex;
 flex-direction: column;
