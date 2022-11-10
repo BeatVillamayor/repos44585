@@ -1,0 +1,44 @@
+
+h3 { 
+    color:black;
+    font-size: 30px;
+ justify-content: center;
+}
+.info{
+    gap: 1rem;
+    padding: 0rem 1rem;
+}
+.info__card{
+    /* width: 33%; */
+    /* display: inline-block; */
+    padding: 1rem 2rem;
+    display: flex;
+}
+.listas{
+    list-style: none;
+}
+
+.color-azul{
+color:blue;
+}
+.px20{
+    font-size: 20px;
+}
+.infocard__resu{
+    display: flex;
+    flex-direction: column;
+}
+
+.color-negro{
+        color:aqua;
+        font-size:40px ;    
+    }
+    .verde{
+        color:green
+    }
+    .px{
+        font-size: 20px;
+    }
+    .article {
+        color: blue;
+    }

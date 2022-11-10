@@ -1,4 +1,4 @@
-* {
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -156,13 +156,13 @@ h3 {
     gap: 1rem;
     padding: 0rem 1rem;
 }
-.infocard{
+.info__card{
     /* width: 33%; */
     /* display: inline-block; */
     padding: 1rem 2rem;
     display: flex;
 }
-.listas{
+.listas__no{
     list-style: none;
 }
 
@@ -172,7 +172,7 @@ color:blue;
 .px20{
     font-size: 20px;
 }
-.infocard__resu{
+.info__card__resu{
     display: flex;
     flex-direction: column;
 }

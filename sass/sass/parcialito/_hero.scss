@@ -1,0 +1,19 @@
+.hero{
+    display: flex;
+
+}
+&__heading {
+    color:chartreuse;
+    font-size: 3rem;
+    margin:20px ;
+}
+&__img{
+    
+    background-position: center bottom;
+}
+&__blue{
+    color:blue;
+    text-align: center;
+    justify-content: center;
+    margin: 1re;
+}
