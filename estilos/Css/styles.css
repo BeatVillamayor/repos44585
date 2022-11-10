@@ -16,7 +16,7 @@
    
 }
 .header__escudo{
-    max-width: 250px;
+    max-width: 150px;
 }
 .swing-in-top-fwd {
 	-webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
@@ -71,7 +71,7 @@
 }
 .nav__item{
     display:inline-block;
-    padding: 1rem 0.5rem ;
+    padding: 0.5rem 0.5rem ;
     background-color: yellow;
     margin: 0.5rem;
     border-radius: 10%;
@@ -178,11 +178,16 @@ color:blue;
     flex-direction: column;
 }
 /*propuesta informativa*/
-.caja__img{
+.caja{
    
     display: grid;
-    margin: 1 rem;
-    grid-template-columns: repeat(2), 1ref;
+    padding: 2 rem;
+    grid-template-columns: repeat(2 , 1fr);
+    height: 30vh;
+    overflow:scroll;
+}
+.caja__img{
+        width: 100%;
 }
 .roll-in-left {
 	-webkit-animation: roll-in-left 0.6s ease-out both;
@@ -228,6 +233,7 @@ color:blue;
     display: grid;
     grid-template-columns: repeat( 4, 1rf);
     padding: 2 rem;
+
    
 }
 .bounce-in-top {
@@ -348,6 +354,7 @@ color:blue;
   
 
 /*fin contacto*/
+
 /*inicio proyecto*/
 .slide-in-elliptic-top-fwd {
 	-webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
