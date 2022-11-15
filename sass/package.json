@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "sass --whatch scss/index.scss css/translated.css"
-  },
+    "buil-css": "sass -watch scss/index.scss css/translated.css"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

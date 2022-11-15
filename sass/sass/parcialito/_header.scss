@@ -1,39 +1,72 @@
- .header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
    
- }
-  &__escudo{
-    max-width: 150px;
- }
-
- 
-
-
-
-  &__list{
-    display: flex;
-   flex-direction: column;
- }
- &__item{
-    display:inline-block;
-    padding: 0.5rem 0.5rem ;
-    background-color: yellow;
-    margin: 0.5rem;
-    border-radius: 10%;
- }
- &__anchor{
-    text-decoration: none;
-    text-align: center;
- }
- &__ifram__img{
+    .header{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+     
+  }
+   .header__escudo{
+      max-width: 150px;
+  }
+  .swing-in-top-fwd {
+          -webkit-animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+                  animation: swing-in-top-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  }
   
-    display: grid;
-    grid-template-columns: repeat( 4, 1rf);
-    padding: 2 rem;
-}
-
+  
+  /**
+   * ----------------------------------------
+   * animacion
+   * ----------------------------------------
+   */
+   @-webkit-keyframes swing-in-top-fwd {
+      0% {
+        -webkit-transform: rotateX(-100deg);
+                transform: rotateX(-100deg);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+        opacity: 1;
+      }
+    }
+    @keyframes swing-in-top-fwd {
+      0% {
+        -webkit-transform: rotateX(-100deg);
+                transform: rotateX(-100deg);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+        opacity: 1;
+      }
+    }
+       
+    .nav__list{
+      display: flex;
+     flex-direction: column;
+  }
+  .nav__item{
+      display:inline-block;
+      padding: 0.5rem 0.5rem ;
+      background-color: yellow;
+      margin: 0.5rem;
+      border-radius: 10%;
+  }
+  .nav__anchor{
+      text-decoration: none;
+      text-align: center;
+  }
 
 
 

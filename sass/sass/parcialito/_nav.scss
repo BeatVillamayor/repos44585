@@ -1,0 +1,16 @@
+  
+    .nav__list{
+        display: flex;
+       flex-direction: column;
+    }
+    .nav__item{
+        display:inline-block;
+        padding: 0.5rem 0.5rem ;
+        background-color: yellow;
+        margin: 0.5rem;
+        border-radius: 10%;
+    }
+    .nav__anchor{
+        text-decoration: none;
+        text-align: center;
+    }
