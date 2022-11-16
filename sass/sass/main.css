@@ -44,15 +44,15 @@
 }
 .nav__list {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
 }
 
 .nav__item {
-  display: inline-block;
-  padding: 0.5rem 0.5rem;
-  background-color: yellow;
+  display:inline-block;
+  padding:0.5rem 0.5rem;
+  background-color:aquamarine;
   margin: 0.5rem;
-  border-radius: 10%;
+  border-radius: 05%;
 }
 
 .nav__anchor {
@@ -329,6 +329,12 @@ h3 {
 }
 /*fin contacto*/
 /*inicio proyecto*/
+.heder__nave {
+  display: grid;
+  grid-template-columns: repeat(1, 2rf);
+  padding: 1rem;
+}
+
 .slide-in-elliptic-top-fwd {
   -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

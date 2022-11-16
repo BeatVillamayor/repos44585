@@ -1,11 +1,13 @@
+
    
-    .header{
+   .header{
       display: flex;
       align-items: center;
       flex-direction: column;
      
+     
   }
-   .header__escudo{
+    &__escudo{
       max-width: 150px;
   }
   .swing-in-top-fwd {
@@ -52,18 +54,18 @@
       }
     }
        
-    .nav__list{
+     &__list{
       display: flex;
-     flex-direction: column;
+     flex-direction:column-reverse;
   }
-  .nav__item{
+  &__item{
       display:inline-block;
       padding: 0.5rem 0.5rem ;
-      background-color: yellow;
+      background-color:aquamarine;
       margin: 0.5rem;
-      border-radius: 10%;
+      border-radius: 05%;
   }
-  .nav__anchor{
+  &__anchor{
       text-decoration: none;
       text-align: center;
   }

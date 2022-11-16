@@ -1,4 +1,4 @@
-
+ 
  .header{
     display: flex;
     align-items: center;
@@ -54,14 +54,14 @@
 
   .nav__list{
     display: flex;
-   flex-direction: column;
+   flex-direction:column;
 }
 .nav__item{
     display:inline-block;
     padding: 0.5rem 0.5rem ;
-    background-color: yellow;
+    background-color: aquamarine;
     margin: 0.5rem;
-    border-radius: 10%;
+    border-radius: 05%;
 }
 .nav__anchor{
     text-decoration: none;
@@ -361,6 +361,14 @@ color:blue;
 /*fin contacto*/
 
 /*inicio proyecto*/
+
+.heder__nave{
+display: grid;
+grid-template-columns: repeat( 4, 3rf);
+padding: 1rem;
+
+}
+
 .slide-in-elliptic-top-fwd {
         -webkit-animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
                 animation: slide-in-elliptic-top-fwd 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

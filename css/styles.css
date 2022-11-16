@@ -415,3 +415,49 @@
       }
       
     /* fin de proyecto*/
+    /* media queries */
+
+@media screen and (max-width:1024px) {
+        .header{
+            flex-direction: column;
+        }
+       
+    
+    @media screen and (max-width:768px){
+        .header {
+            flex-direction: column;
+            background-color: beige;
+     }
+    }
+    @media screen and (max-width:320px){
+        .header {
+            flex-direction: column;
+            background-color: bisque;
+     }
+     .nav__list{
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+    }
+    
+    
+    .box__imagen{
+    
+    flex-direction: column;
+    padding: 1rem;
+    }
+    .header__nave{
+    display: flex;
+    flex-direction: column;
+    }
+    .header__ifram{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    }
+    }
+    }
