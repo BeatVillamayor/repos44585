@@ -417,7 +417,7 @@
     /* fin de proyecto*/
     /* media queries */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:320px) {
         .header{
             flex-direction: column;
         }
@@ -429,7 +429,7 @@
             background-color: beige;
      }
     }
-    @media screen and (max-width:320px){
+    @media screen and (max-width:1040px){
         .header {
             flex-direction: column;
             background-color: bisque;
